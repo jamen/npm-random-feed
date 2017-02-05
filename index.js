@@ -10,8 +10,10 @@ var opts = require('minimist')(process.argv.slice(2), {
 })
 
 var length = opts.length
-var filter = opts.filter
 var delay = duration(opts.delay)
+
+var isFilter = typeof opts.filter === 'string'
+var filter = opts.filter === 'free'
 
 // Start feed:
 feed()
@@ -20,7 +22,7 @@ function feed () {
   setTimeout(function () {
     var select = fake(length)
     name(select).then(function (free) {
-      if ((filter === 'free' && !free) || (filter === 'taken' && free)) return
+      if (isFilter && filter !== free) return
       var status = free ? chalk.green('free') : chalk.red('taken')
       console.log(chalk.white(select) + ': ' + status)
     }, function (err) {
