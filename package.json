@@ -26,7 +26,7 @@
   ],
   "dependencies": {
     "chalk": "^1.1.3",
-    "css-duration": "^0.2.0",
+    "css-duration": "^0.3.0",
     "fake-word": "^0.1.0",
     "minimist": "^1.2.0",
     "npm-name": "^3.0.0"

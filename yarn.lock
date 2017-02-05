@@ -45,15 +45,15 @@ create-error-class@^3.0.0:
   dependencies:
     capture-stack-trace "^1.0.0"
 
-css-duration@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/css-duration/-/css-duration-0.2.0.tgz#3864259f69239fb02ba728c34aa809be6294a717"
+css-duration@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/css-duration/-/css-duration-0.3.0.tgz#fa16a5a8b2471b72f56916a176eba01db3388da3"
   dependencies:
-    css-strip-units "^1.0.0"
+    css-get-unit "^1.0.0"
 
-css-strip-units@^1.0.0:
+css-get-unit@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/css-strip-units/-/css-strip-units-1.0.0.tgz#1b8319039e4b4e664676c383dc89cc0af8c87a11"
+  resolved "https://registry.yarnpkg.com/css-get-unit/-/css-get-unit-1.0.0.tgz#23db44fa6ac092103d7c70fa4b7cb605311f36d2"
 
 deep-equal@~1.0.1:
   version "1.0.1"
