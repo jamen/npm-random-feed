@@ -1,7 +1,7 @@
 {
   "name": "npm-random-feed",
   "description": "Create a feed of random names, and if they are free or taken",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/jamen/npm-random-feed",
   "author": "Jamen Marz (https://git.io/jamen)",
   "repository": "jamen/npm-random-feed",
