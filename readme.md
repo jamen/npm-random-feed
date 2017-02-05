@@ -6,11 +6,12 @@
 **Note:** Do not abuse this module.  I've made it for my own personal use when struggling to find short reasonable names on npm.  I've published it _if_ other people want to use it for the same purpose.
 
 ```
-$ npm-random-feed --length 3 --delay 1s
+$ npm-random-feed --length 3 --delay 1s --no-filter
 ```
 
  - `--length`: Length of the random words generated.  Defaults to `3`
  - `--delay`: Delay between each request. Defaults to `1s`
+ - `--[no-]filter`: `free` or `taken` or disabled.  Defaults to `free`
 
 See [`css-duration`](https://npmjs.com/)
 
