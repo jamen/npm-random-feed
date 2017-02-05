@@ -13,9 +13,6 @@
     "node": ">=4"
   },
   "bin": "./index.js",
-  "scripts": {
-    "test": "node test"
-  },
   "devDependencies": {
     "tape": "^4.6.3"
   },
